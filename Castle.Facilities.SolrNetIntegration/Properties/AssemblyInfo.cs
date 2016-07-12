@@ -19,10 +19,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Castle.Facilities.SolrNetIntegration")]
 [assembly: AssemblyDescription("Castle.Facilities.SolrNetIntegration")]
 [assembly: AssemblyProduct("Castle.Facilities.SolrNetIntegration")]
-[assembly: AssemblyCopyright("Copyright Mauricio Scheffer 2007-2015")]
-[assembly: AssemblyVersion("0.5.0.1002")]
-[assembly: AssemblyFileVersion("0.5.0.1002")]
-[assembly: AssemblyInformationalVersion("4758ae1c6550363fb060857db120ff3aed438052")]
+[assembly: AssemblyCopyright("Copyright Mauricio Scheffer 2007-2016")]
+[assembly: AssemblyVersion("0.5.0.1003")]
+[assembly: AssemblyFileVersion("0.5.0.1003")]
+[assembly: AssemblyInformationalVersion("9c64895feb4a6da57a49849867ddffe69402ed1c")]
 [assembly: AssemblyDelaySign(false)]
 
 

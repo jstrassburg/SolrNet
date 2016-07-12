@@ -10,8 +10,8 @@ open System.Xml.Linq
 open Fake
 open Fake.FileUtils
 
-let version = "0.5.0.1002"
-let nugetVersion = "0.5.0-alpha2"
+let version = "0.5.0.1003"
+let nugetVersion = "0.5.2"
 let buildDir = "merged"
 let nugetDir = "nuget"
 let nugetDocs = nugetDir @@ "content"
@@ -120,7 +120,7 @@ Target "NuGet" <| fun _ ->
     if File.Exists docsFile then
         cp docsFile nugetDocs
     !!(buildDir @@ "SolrNet.*") |> Copy nugetLib
-    nuGetBuild "SolrNet" "Apache Solr client" ["CommonServiceLocator", "[1.0]"]
+    nuGetBuild "SolrNet" "Apache Solr client" ["CommonServiceLocator", "1.0"]
 
 let nuGetSingle dir =
     rm_rf nugetDir
