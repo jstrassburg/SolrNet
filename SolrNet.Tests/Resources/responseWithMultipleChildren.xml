@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<response>
+  <lst name="responseHeader">
+    <int name="status">1</int>
+    <int name="QTime">15</int>
+    <lst name="params">
+      <str name="q">id:123456</str>
+      <str name="version">2.2</str>
+    </lst>
+  </lst>
+  <result name="response" numFound="2" start="0">
+    <doc>
+      <str name="advancedview"/>
+      <str name="basicview"/>
+      <int name="id">123456</int>
+      <str name="location">51.5171,-0.1062</str>
+      <str name="sameFieldName">parent value</str>
+      <doc>
+        <str name="childField">abcdef</str>
+        <str name="sameFieldName">child value</str>
+      </doc>
+      <doc>
+        <str name="childField">wxyz</str>
+        <str name="sameFieldName">child value</str>
+      </doc>
+    </doc>
+    <doc>
+      <str name="advancedview"/>
+      <str name="basicview"/>
+      <int name="id">789</int>
+      <str name="location">51.5171,-0.1062</str>
+      <str name="sameFieldName">parent value</str>
+    </doc>
+  </result>
+  <str name="nextCursorMark">AoEoZTQ3YmY0NDM=</str>
+</response>

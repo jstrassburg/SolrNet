@@ -1,3 +1,9 @@
+0.5.1.0 (2017-03-02)
+===
+- Update the `SolrDocumentResponseParser` to also read child documents. Returns flattened documents that represent each child, with properties from its parent. Properties whose names are in both the child and parent will be overridden with the child value.
+
+???
+===
 - Fix handling of NaN in stats
 - Handle multi-value field containing one or more nulls
 

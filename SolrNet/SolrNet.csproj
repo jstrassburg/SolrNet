@@ -363,6 +363,7 @@
     <Compile Include="StartOrCursor.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="StatsResult.cs" />
+    <Compile Include="Utils\ShallowClone.cs" />
     <Compile Include="Utils\Container.cs" />
     <Compile Include="Exceptions\InvalidURLException.cs" />
     <Compile Include="ISolrConnection.cs" />

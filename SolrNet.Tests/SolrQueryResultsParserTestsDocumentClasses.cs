@@ -73,7 +73,24 @@ namespace SolrNet.Tests {
             public int Id { get; set; }
         }
 
-        public class TestDocumentWithoutAttributes {
+			public class TestDocumentWithChildren {
+				[SolrField("advancedview")]
+				public string AdvancedView { get; set; }
+
+				[SolrField("basicview")]
+				public string BasicView { get; set; }
+
+				[SolrField("id")]
+				public int Id { get; set; }
+
+				[SolrField("childField")]
+				public string ChildField { get; set; }
+
+				[SolrField("sameFieldName")]
+				public string SameFieldName { get; set; }
+			}
+
+      public class TestDocumentWithoutAttributes {
             public int Id { get; set; }
         }
 
