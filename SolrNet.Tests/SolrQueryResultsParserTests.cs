@@ -29,7 +29,6 @@ using SolrNet.Impl.FieldParsers;
 using SolrNet.Impl.ResponseParsers;
 using SolrNet.Mapping;
 using SolrNet.Tests.Utils;
-using Castle.Facilities.SolrNetIntegration;
 
 namespace SolrNet.Tests {
 	[TestFixture]
@@ -402,13 +401,6 @@ namespace SolrNet.Tests {
         }
 
 
-		[Test]
-		[Ignore("Performance test, potentially slow")]
-		public void Performance() {
-		    var container = new ProfilingContainer();
-            container.AddFacility("solr", new SolrNetFacility("http://localhost"));
-            ProfileTest(container);
-		}
 
 		[Test]
 		public void ParseFacetResults() {

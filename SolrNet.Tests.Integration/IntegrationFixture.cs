@@ -21,8 +21,9 @@ using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
+using CommonServiceLocator;
 using MbUnit.Framework;
-using Microsoft.Practices.ServiceLocation;
+
 using SolrNet.Commands.Parameters;
 using SolrNet.Impl;
 using SolrNet.Tests.Integration.Sample;

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>SolrNet.Unity</id>
+		<version>6.0.1</version>
+		<title>SolrNet.Unity</title>
+		<authors>Mauricio Scheffer and contributors and Direct Supply</authors>
+		<owners>Mauricio Scheffer</owners>
+		<licenseUrl>https://raw.githubusercontent.com/mausch/SolrNet/master/license.txt</licenseUrl>
+		<projectUrl>https://github.com/jstrassburg/SolrNet</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>DS-customized Unity integration for SolrNet</description>
+		<releaseNotes>
+			Unity version bump to 5.8.6
+		</releaseNotes>
+		<language>en-US</language>
+		<dependencies>
+			<dependency id="Unity" version="5.8.6" />
+			<dependency id="DSSolrNet" version="6.0.1" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\debug\Unity.SolrNetIntegration.dll" target="lib\Unity.SolrNetIntegration.dll" />
+		<file src="bin\debug\Unity.SolrNetIntegration.pdb" target="lib\Unity.SolrNetIntegration.pdb" />
+		<file src="bin\debug\Unity.SolrNetIntegration.XML" target="lib\Unity.SolrNetIntegration.XML" />
+	</files>
+</package>

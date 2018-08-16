@@ -15,7 +15,8 @@
 #endregion
 
 using System;
-using Microsoft.Practices.ServiceLocation;
+using CommonServiceLocator;
+
 
 namespace SolrNet.Utils {
     /// <summary>

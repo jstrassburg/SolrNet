@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>DSSolrNet</id>
+		<version>6.0.1</version>
+		<title>DSSolrNet</title>
+		<authors>Mauricio Scheffer and contributors and Direct Supply</authors>
+		<owners>Mauricio Scheffer</owners>
+		<licenseUrl>https://raw.githubusercontent.com/mausch/SolrNet/master/license.txt</licenseUrl>
+		<projectUrl>https://github.com/mausch/SolrNet</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Apache Solr client</description>
+		<language>en-US</language>
+		<releaseNotes>
+			Depends on the Unity package, version 5.8.6.
+			Included HttpWebAdapters as a library package in this package instead of being linked into SorlNet.dll.
+		</releaseNotes>
+		<dependencies>
+			<dependency id="Unity" version="5.8.6" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\debug\SolrNet.*" target="lib" />
+		<file src="bin\debug\HttpWebAdapters.*" target="lib" />
+	</files>
+</package>
